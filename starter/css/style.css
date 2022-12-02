@@ -1,5 +1,10 @@
 * {
   box-sizing: border-box;
+  
+}
+
+header img {
+  width: 100px;
 }
 
 body {
@@ -7,6 +12,12 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: rgb(52, 60, 66);
+}
+
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 200px; 200px;
 }
 
 h1,
