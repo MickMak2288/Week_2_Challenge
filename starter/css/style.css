@@ -20,7 +20,6 @@ header nav ul {
   align-items: center;
   margin: 10px 20px;
   gap: 2px;
-  color: white;
 }
 
 #container{
@@ -50,9 +49,13 @@ body {
   background-color: rgb(49, 58, 66);
 }
 
-.page-wrapper {
-  display: grid;
-  grid-template-columns: 200px; 200px;
+.page-section{
+  display: flex;
+
+}
+
+.aboutme, .work, .contact, .me{
+margin: 50px;
 }
 
 h1,
@@ -62,6 +65,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+font-size: 30px;  
 }
 
 p {
@@ -70,6 +74,9 @@ p {
 
 .grid-container {
   display: grid;
+  align-content: center;
+  justify-content: center;
+  margin-left: 80px;
   gap: 5px;
   grid-template-columns: 200px  100px;
   justify-content: last;
@@ -78,3 +85,12 @@ p {
 .grid-container div{
   border: 1px rgb(206, 28, 28) solid;
 }
+
+
+section nav ul {
+    display: flex;
+    align-content: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    gap: 150px;
+  }
